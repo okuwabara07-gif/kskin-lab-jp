@@ -1,2 +1,3 @@
 # kskin-lab-jp
-韓国スキンケアLAB
+
+Updated: 2026-04-01
