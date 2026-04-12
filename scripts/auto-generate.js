@@ -12,7 +12,7 @@ const CRITERIA = '保湿力・成分・使用感・コスパ・効果';
 const A8_NAME = 'オルビス ザ クレンジングオイル';
 const A8_URL = 'https://px.a8.net/svt/ejp?a8mat=4AZR8U+CRMNSI+1USQ+4YM976';
 const A8_DESC = '美容師も愛用する人気クレンジング';
-const MODEL = 'claude-sonnet-4-20250514';
+const MODEL = process.env.MODEL || 'claude-haiku-4-5-20251001';
 
 function moshimoAmazonLink(keyword) {
   const searchUrl = encodeURIComponent('https://www.amazon.co.jp/s?k=' + encodeURIComponent(keyword) + '&tag=' + AMAZON_TRACKING_ID);
