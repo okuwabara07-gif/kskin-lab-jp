@@ -20,6 +20,18 @@ export default function RelatedSites() {
             {site.name}
           </a>
         ))}
+      <div style={{display:'flex',flexWrap:'wrap',gap:'0.5rem',marginTop:'0.75rem',paddingTop:'0.75rem',borderTop:'1px solid #dee2e6'}}>
+        <span style={{fontSize:'0.75rem',color:'#888',alignSelf:'center'}}>サロン予約：</span>
+              <a href="https://kirei-tsurumi.com" target="_blank" rel="noopener noreferrer"
+                style={{padding:'0.4rem 0.8rem',background:'#F5E8EE',border:'1px solid #D4537E',borderRadius:'20px',fontSize:'0.8rem',color:'#7A3550',textDecoration:'none',fontWeight:500}}
+              >
+                キレイ鶴見店（サロン予約）
+              </a>
+              <a href="https://salonrink.com" target="_blank" rel="noopener noreferrer"
+                style={{padding:'0.4rem 0.8rem',background:'#FDF5E8',border:'1px solid #B8966A',borderRadius:'20px',fontSize:'0.8rem',color:'#7A6E64',textDecoration:'none'}}
+              >
+                SalonRink
+              </a>
       </div>
     </div>
   )
